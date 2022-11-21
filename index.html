@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="llenado">
+    <h1 id="contablito">CONTABLITO</h1>
+<div id="form">
+    <label>Descripción <input type="text" id="descripcion" name="descripcion" /></label><br><br>
+
+    <label>Tipo de transacción <input type="radio" id="compra" name="tipodetransaccion" value="compra">Compra </input>
+         <input type="radio" id="venta" name="tipodetransaccion" value="venta"> Venta</input></label><br><br>
+
+    <label>Tipo de IVA <input type="radio" id="basico" name="tipodeIVA" value="basico">Básico </input>
+        <input type="radio" id="minimo" name="tipodeIVA" value="minimo">Mínimo </input>
+        <input type="radio" id="exento" name="tipodeIVA" value="exento">Exento </input></label><br><br>
+
+    <label>Sub Total <input type="number" id="subTotal" name="subtotal" /></label>
+    
+    <button id="submit">ingresar</button>
+</div>
+</div>
+
+<div class="llenado"id="tabla"></div>
+<div class="llenado" id="total"></div>
+</body>
+
+</html>
